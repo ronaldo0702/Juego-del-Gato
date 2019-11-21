@@ -1,0 +1,32 @@
+
+body
+{
+    background-color: yellow;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}    
+.row{
+width: 50rem;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+margin-left:80px !important;
+background-color: white;
+}
+.heigh{
+	height: 8em;
+	border: 0.4rem solid;
+	border-color: gray;
+	position: relative;
+}
+  #imagen{
+	  position: absolute;
+	  width: 100px;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  margin: auto;
+  }
